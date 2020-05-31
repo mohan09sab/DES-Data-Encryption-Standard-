@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DES</title>
+	<link rel="stylesheet" type="text/css" href="des.css">
+	<script type="text/javascript" src="jquery-3.4.1.js"></script>
+	<script type="text/javascript" src="plotly-latest.min.js"></script>
+	<script type="text/javascript" src="canvasjs.min.js"></script>
+</head>
+<body>
+	
+	<div class="le">
+		<label>No Of Rounds(n):</label>
+		<input type="text" name="rounds" id="round">
+	</div>
+	<div class="le">
+		<label>Half Width of data block(w):</label>
+		<input type="text" name="rounds" id="width">
+	</div>
+	<div>
+		<label>Weak_Key(check)
+			<input type="checkbox" id="weak">
+		</label>
+	</div>
+	<button id="e">Click to see results of DES Encryption</button>
+	
+	<hr>
+	<div>
+	<p>Encryption Details [Round Keys,CipherText(hex)]:<p>
+	<textarea id="ans" rows="33" cols="100"></textarea>
+	</div>
+	<div id="myDiv" style="height: 300px; width: 100%"></div>
+	<hr>
+	<div id="chartcontainer" style="height: 300px; width: 100%"></div>
+	<script type="text/javascript" src="des.js"></script>
+</body>
+</html>

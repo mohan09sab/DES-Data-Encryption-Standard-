@@ -1,0 +1,12 @@
+div{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+p{
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+textarea{
+	margin-top: 0;
+}

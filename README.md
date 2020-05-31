@@ -1,0 +1,2 @@
+# DES-Data-Encryption-Standard-
+A program with a nice UI to implement and study DEA with different hyper parameters. Number of rounds n=1, 8, 16, 32; half width of data block w=16, 32, 64. It can be used to demonstrate the avalanche effect with different hyper parameter choices. It also demonstrates how weak keys supplied by the user affects the round keys.                                                
